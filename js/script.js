@@ -1,6 +1,6 @@
     let userLocation = prompt("Whats your current location?");
     var APIKey = "166a433c57516f51dfab1f7edaed8413"; 
-    var queryURL = "http://www.boredapi.com/api/activity?";
+    var queryURL = "https://www.boredapi.com/api/activity?";
     var queryURLweather = "https://api.openweathermap.org/data/2.5/weather?" +
   "q=" + userLocation + "&appid=" + APIKey; 
   
